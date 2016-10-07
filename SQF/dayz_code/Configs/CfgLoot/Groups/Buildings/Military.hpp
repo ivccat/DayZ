@@ -63,43 +63,54 @@ Military[] =
 MilitarySpecial[] =
 {
 	//Pistols
-	{Loot_WEAPON,		1,		Makarov_DZ},
-	{Loot_WEAPON,		1,		M1911_DZ},
-	{Loot_WEAPON,		2,		M9_DZ},
-	{Loot_WEAPON,		2,		G17_DZ},
+//	{Loot_WEAPON,		1,		Makarov_DZ},
+//	{Loot_WEAPON,		1,		M1911_DZ},
+	{Loot_WEAPON,		1,		M9_DZ},
+	{Loot_WEAPON,		1,		G17_DZ},
 	
 	//Submachineguns
-	{Loot_WEAPON,		2,		PDW_DZ},
-	{Loot_WEAPON,		3,		Bizon_DZ},
-	{Loot_WEAPON,		2,		MP5_DZ},
+	{Loot_WEAPON,		1,		PDW_DZ},
+//	{Loot_WEAPON,		3,		Bizon_DZ},
+//	{Loot_WEAPON,		2,		MP5_DZ},
 	
 	//Assault rifles
-	{Loot_WEAPON,		3,		M16A2_DZ},
+//	{Loot_WEAPON,		3,		M16A2_DZ},
 	//{Loot_WEAPON,		2,		M16A2_GL_DZ},  //added to attachments system
 	{Loot_WEAPON,		2,		M16A4_DZ},
-	{Loot_WEAPON,		1,		M4A1_DZ},
-//	{Loot_WEAPON,		3,		G36C_DZ},
-	{Loot_WEAPON,		2,		AK74_DZ},
-	{Loot_WEAPON,		2,		AKS74U_DZ},
+//	{Loot_WEAPON,		1,		M4A1_DZ},
+	{Loot_WEAPON,		2,		G36C_DZ},
+//	{Loot_WEAPON,		2,		AK74_DZ},
+//	{Loot_WEAPON,		2,		AKS74U_DZ},
 	{Loot_WEAPON,		2,		AKM_DZ},
-	{Loot_WEAPON,		2,		SA58_DZ},
+	{Loot_WEAPON,		1,		SA58_DZ},
 	{Loot_WEAPON,		1,		SA58_RIS_DZ},
+	
+	//Rifles
+	{Loot_WEAPON,		0.5,		M14_DZ},
+	{Loot_WEAPON,		0.5,		FNFAL_DZ},
+	
+	//Sniper rifles
+	{Loot_WEAPON,		0.7,		M24_DZ},
+	{Loot_WEAPON,		0.5,		SVD_DZ},
 	
 	//Shotguns
 	{Loot_WEAPON,		1,		Remington870_DZ},
-	{Loot_WEAPON,		2,		M1014_DZ},
+	{Loot_WEAPON,		1,		M1014_DZ},
 	
 	//Machine guns
-	{Loot_WEAPON,		1,		RPK74_DZ},
+	{Loot_WEAPON,		1,	RPK74_DZ},
+	{Loot_WEAPON,		0.5,	RPK_DZ},
 	{Loot_WEAPON,		0.5,	UK59_DZ},
 //	{Loot_WEAPON,		0.5,	PKM_DZ},
+	{Loot_WEAPON,		0.5,	M249_DZ},
 	
 	//Tools
-	{Loot_TOOL,			4,		Binocular},
+	{Loot_TOOL,			3,		Binocular},
 	{Loot_TOOL,			3,		ItemFlashlightRed},
-	{Loot_TOOL,			5,		ItemKnife},
+	{Loot_TOOL,			4,		ItemKnife},
 	{Loot_TOOL,			1.3,	ItemGPS},
-	{Loot_TOOL,			4,		ItemMap},
+	{Loot_TOOL,			1,	Binocular_Vector},
+	{Loot_TOOL,			3,		ItemMap},
 	{Loot_TOOL,			2,		ItemEtool},
 	
 	//Backpacks
@@ -131,8 +142,8 @@ MilitarySpecial[] =
 	{Loot_GROUP,		2,		AttachmentsGeneric},
 	{Loot_GROUP,		8,		AttachmentsEast},
 	{Loot_GROUP,		6,		AttachmentsWest},
-	{Loot_PILE,			10,		MedicalLow, 1, 2},
-	{Loot_PILE,			10,		Trash, 1, 2},
-	{Loot_PILE,			10,		Consumable, 1, 2},
-	{Loot_GROUP,		8,		Generic}
+	{Loot_PILE,			5,		MedicalLow, 1, 2},
+	{Loot_PILE,			5,		Trash, 1, 2},
+	{Loot_PILE,			5,		Consumable, 1, 2},
+	{Loot_GROUP,		5,		Generic}
 };
